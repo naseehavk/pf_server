@@ -1,0 +1,121 @@
+-> EventEmitter - to define events
+    -->Process:the process object providesinformation about ,and control over, the cure=rent Node.js process.
+    -->dotenv
+-->API-server
+jSON ,X ML
+
+
+
+
+
+
+REST uses JSON
+
+-Express.js a framework 
+(if we use sing node ,more easier is express )
+react more flexible 
+express is a framework with limited 
+
+
+difference btwn javascript object and JSSON
+--------------------------------------------
+keys must be string in JSON
+JSON -javascript object notation ={name:'ajith',age:20} ===>
+JSON format : {"name":"ajith","age":20}
+
+
+ASSIGNMENT
+-----------
+what is api 
+what is REST API 
+difference between REST and SOAP
+
+SOFWARE PATTERN / ARCHITECHTURE 
+------------------------------
+
+1.MVC - Model view Controllor
+
+MODEL - A component that helps to inetract with db 
+VIEW  - component where user interacts 
+CONTROLLER - Component which handles the working logic of server 
+
+// ----Routing - maps comming result and 
+redirect the coming request with matching path to controller 
+
+controller executes data 
+
+ConTROLLER interacts with model , what data needs to taken from database
+
+MODEL fetches data from database and passes to Controller 
+
+CONTROLLER sends the data as response to VIEW 
+
+VIEW data renders and user gets the data----//
+
+
+2.MVT - model view Template
+Model - Component that interacts with db
+View - component that handles work logic and also make sure how response is rendered in template 
+Template - user interface
+etc
+
+=> request = Header + body 
+
+MongoDB==>
+===========
+
+-what is MongoDB
+------------------
+MongoDB is a no-sql non-relational schemaless json-document based dbms
+
+
+-what are the features
+-------------------------
+-No sql 
+-non-relational
+-no specific schemaless
+-open-source
+-Data collected as JSON documents
+-flexible
+
+-----RDMS ------  -----MongoDB-----------
+Database            Database
+Table               Collections
+Tuple/row           Dcoument 
+Column              Fields
+Primary Key         _id[12 character hexadecimel value ]
+
+=>ADvantages 
+---------------
+-schemaless,flexible,No sql etc
+-faster
+-Scalable //bigdata technology
+
+install Mongodb and mongodb compass
+
+
+------------
+MONGOOSE ----
+------------
+=>its a MongoDB object modelling tool
+=> for intialising object and model for mongodbs and connect them 
+
+
+model equal to collections
+acts like a class 
+
+FORM DATA CLASS
+----------------
+if you neeed to share file and texts
+const formdata()=new formdata
+
+by default : application/json 
+    here : multipart/form-data
+
+
+MULTER :
+--------------
+-3rd party middleware package for file handling
+-configure
+-install
+ 
